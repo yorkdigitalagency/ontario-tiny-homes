@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ontario Tiny Home Builders &amp; Costs — Prices and Calculator</title>
+<meta name="description" content="Published Ontario tiny home builder prices, the all-in cost stack, and a cost calculator. Indicative 2025-2026 figures.">
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:#1c2420;background:#f7f5f0;line-height:1.6}
+header{background:#16382c;color:#fff;padding:28px 20px}
+header h1{margin:0 0 6px;font-size:30px}
+header p{margin:0;opacity:.9;max-width:720px}
+nav{background:#fff;border-bottom:1px solid #ddd;padding:10px 20px;display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#16382c;font-weight:600;text-decoration:none}
+main{max-width:900px;margin:0 auto;padding:24px 20px}
+h2{color:#16382c;margin-top:36px}
+.card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:18px;margin:14px 0}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{border:1px solid #ddd;padding:10px;text-align:left;font-size:15px}
+th{background:#16382c;color:#fff}
+label{display:block;margin:12px 0 4px;font-weight:600}
+input{width:100%;padding:10px;font-size:16px;border:1px solid #bbb;border-radius:6px;box-sizing:border-box}
+button{background:#16382c;color:#fff;border:0;padding:12px 22px;font-size:16px;border-radius:6px;cursor:pointer;margin-top:14px}
+.result{font-size:19px;font-weight:700;color:#16382c;margin-top:16px}
+.ad{border:1px dashed #999;background:#eee;text-align:center;color:#666;padding:18px;margin:20px 0;font-size:14px}
+a{color:#14532d}
+footer{border-top:1px solid #ddd;margin-top:40px;padding:18px 20px;color:#555;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+<h1>Builders &amp; Costs</h1>
+<p>Published Ontario prices only, labelled with what they exclude. The package price is never the all-in price.</p>
+</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="communities.html">Communities</a>
+<a href="rules.html">Ontario Rules</a>
+<a href="builders-costs.html">Builders &amp; Costs</a>
+</nav>
+<main>
+<div class="ad">Advertisement — ad space (display ads start after ad-network approval)</div>
+
+<h2>Published builder prices (Ontario, 2025–2026, indicative)</h2>
+<table>
+<tr><th>Builder</th><th>What you get</th><th>Starting price (CAD)</th><th>Certification / note</th></tr>
+<tr><td>Wildscape Co.</td><td>Cypress 174 sq ft / Cedar 266 sq ft</td><td>$74,900 – $179,900</td><td>CSA Z240 MH — year-round permanent</td></tr>
+<tr><td>Tiny Houses Canada (Cambridge)</td><td>20 ft standard 160 sq ft up to 40 ft expandable</td><td>$39,000 – $119,500</td><td>Most buyers $58,000–$95,000; pre-tax, transport extra</td></tr>
+<tr><td>Crawford Compact Homes (Fergus/Guelph)</td><td>~316 sq ft models</td><td>From $130,000</td><td>Built to Ontario Building Code</td></tr>
+<tr><td>Ballance Containers (Oakville)</td><td>Container ADUs</td><td>$60,000 – $315,000</td><td>CSA A277/A660; transport, install, foundations, servicing extra</td></tr>
+<tr><td>Atella (Ontario)</td><td>Two turnkey models, fully fitted</td><td>From $195,000</td><td>CSA path varies by model — ask in writing</td></tr>
+<tr><td>Suite Builders (Southern Ontario)</td><td>Custom ADUs / garden suites, turnkey</td><td>$180,000 – $350,000</td><td>Design, permits and construction included</td></tr>
+<tr><td>My Own Cottage (Orillia)</td><td>Small prefab, 350–550 sq ft</td><td>$95,600 – $116,000 package</td><td>All-in $110,000–$165,000 on a serviced lot, excl. land</td></tr>
+</table>
+<p>Sources: Acorn Tiny Homes builder comparison; Green Building Canada Ontario collection (October 2026); My Own Cottage published prices (October 2026); builder sites. Confirm current pricing directly — prices move and HST, transport, installation and servicing are often extra.</p>
+
+<h2>The all-in cost stack</h2>
+<div class="card">
+<ul>
+<li><strong>Home package:</strong> $39,000–$320,000 depending on size, finish and builder.</li>
+<li><strong>Foundation:</strong> slab on grade $12,000–$28,000; full basement $45,000–$100,000+ (rarely justified under 800 sq ft).</li>
+<li><strong>Servicing:</strong> on a serviced lot this is modest; on an unserviced rural lot, well + septic + hydro + site work add $80,000–$150,000.</li>
+<li><strong>Permits:</strong> $2,000–$15,000 by construction value.</li>
+<li><strong>Development charges:</strong> $0–$60,000+, but exempt for qualifying garden suites under Bill 23.</li>
+<li><strong>Land:</strong> excluded from every figure above unless stated. Land is usually the largest single cost.</li>
+</ul>
+<p>Rule of thumb from published Ontario data: a small prefab all-in commonly lands at <strong>$280,000–$420,000 excluding land</strong> once foundation, servicing, permits and charges are counted.</p>
+</div>
+
+<h2>Cost calculator (illustrative only)</h2>
+<div class="card">
+<label>Home package ($) <input id="pkg" type="number" value="130000"></label>
+<label>Foundation ($) <input id="found" type="number" value="20000"></label>
+<label>Servicing &amp; site work ($) <input id="serv" type="number" value="30000"></label>
+<label>Permits &amp; charges ($) <input id="perm" type="number" value="8000"></label>
+<label>Land ($) — leave 0 if you already own it <input id="land" type="number" value="0"></label>
+<label>Illustrative mortgage rate (% per year) <input id="rate" type="number" step="0.1" value="5.5"></label>
+<label>Amortization (years) <input id="yrs" type="number" value="25"></label>
+<button onclick="calc()">Calculate</button>
+<div class="result" id="out"></div>
+<p style="font-size:14px;color:#555">Estimates only, not financial advice. HST (13% in Ontario) is shown separately because builders quote with and without it. Monthly estimate uses a standard amortization formula at the rate you enter.</p>
+</div>
+
+<div class="ad">Advertisement — ad space (display ads start after ad-network approval)</div>
+</main>
+<footer>
+Ontario Tiny Homes — independent guide. Prices are published indicative figures, not quotes. Not financial advice.
+</footer>
+<script>
+function calc(){
+  var pkg=+document.getElementById('pkg').value||0;
+  var found=+document.getElementById('found').value||0;
+  var serv=+document.getElementById('serv').value||0;
+  var perm=+document.getElementById('perm').value||0;
+  var land=+document.getElementById('land').value||0;
+  var rate=+document.getElementById('rate').value||0;
+  var yrs=+document.getElementById('yrs').value||25;
+  var sub=pkg+found+serv+perm+land;
+  var hst=sub*0.13;
+  var total=sub+hst;
+  var r=rate/100/12, n=yrs*12;
+  var monthly=r>0 ? total*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1) : total/n;
+  document.getElementById('out').innerHTML =
+    'Subtotal (excl. HST): $'+Math.round(sub).toLocaleString()+
+    '<br>HST (13%): $'+Math.round(hst).toLocaleString()+
+    '<br><b>Total incl. HST: $'+Math.round(total).toLocaleString()+'</b>'+
+    '<br>Illustrative monthly payment: $'+Math.round(monthly).toLocaleString()+' / month';
+}
+calc();
+</script>
+</body>
+</html>
